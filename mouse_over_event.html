@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseOver event</title>
+    <script>
+    function mouseover1(){
+        document.write("Mouse over")
+    }   
+        function out(params) {
+            document.write("Mouse out")            
+        }
+    </script>
+
+</head>
+<body>
+    <input type="button" onmouseout="alert('This is the mouseout event')">Mouse out event
+    <div onmouseover="mouseover1()" onmouseout="out()">
+
+    <h2>This is the function body</h2>
+    </div>
+</body>
+</html>
